@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>LP Abogado - Consultor Jurídico</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="LP Abogado Logo" class="logo"/>
+        <h1>LP Abogado</h1>
+        <p>CONSULTOR JURÍDICO</p>
+    </header>
+
+    <section class="hero">
+        <h2>Atención legal directa y especializada</h2>
+        <p>En LP Abogados, ofrecemos atención legal directa y especializada para que puedas abordar tus asuntos de manera oportuna y amistosa.</p>
+    </section>
+
+    <section class="about">
+        <h2>Sobre Nosotros</h2>
+        <p>LP Abogado es un despacho comprometido con la excelencia y la atención personalizada en cada caso.</p>
+    </section>
+
+    <section class="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Derecho Civil</li>
+            <li>Derecho Penal</li>
+            <li>Derecho Inmobiliario</li>
+            <li>Derecho Migratorio</li>
+            <li>Otros servicios jurídicos</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Tu nombre" required/>
+            <input type="email" name="email" placeholder="Tu correo" required/>
+            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>También puedes escribirnos a <a href="mailto:LPABOGADOPOP@gmail.com">LPABOGADOPOP@gmail.com</a></p>
+    </section>
+
+    <section class="location">
+        <h2>Ubicación</h2>
+        <p>Los Reyes, Calle 3 #18B, Puerto Plata, República Dominicana</p>
+        <iframe src="https://www.google.com/maps?q=Los+Reyes+Calle+3+%2318B,+Puerto+Plata,+Rep%C3%BAblica+Dominicana&output=embed" width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LP Abogado. Todos los derechos reservados.</p>
+        <p>Síguenos en <a href="https://www.instagram.com/lpabogadospop" target="_blank">@lpabogadospop</a></p>
+    </footer>
+
+    <a href="https://wa.me/18295776247" class="whatsapp-float" target="_blank" title="Chatear por WhatsApp">💬</a>
+
+    <script>
+        ScrollReveal().reveal('.hero, .about, .services, .contact, .location, footer', {
+            duration: 1000,
+            origin: 'bottom',
+            distance: '50px',
+            easing: 'ease-in-out',
+        });
+    </script>
+</body>
+</html>
